@@ -1,0 +1,101 @@
+.navbar ul{
+    text-align: center;
+
+}
+
+.navbar ul li{
+    display: inline;
+    margin-right: 30px;
+    padding: 6px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(206, 164, 164);
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: rgb(243, 243, 243);
+    height: 70px;
+    width: 700px;
+    position: fixed;
+    top: 15px;
+    left: 600px;
+    z-index: 100;
+    border-radius: 60px;
+    font-family: Geneva;
+    opacity: 0.4;
+}
+
+.navbar a:hover{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 213, 255), rgb(0, 140, 255));
+}
+
+.boxRound{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 700px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 450px;
+    opacity: 0.4;
+}
+
+.box-text{
+    margin-top: 100px;
+    margin-left: 470px;
+}
+
+.box-text h1{
+    font-size: 25px;
+    font-family: Geneva;
+    color: rgb(117, 26, 26);
+    margin-left: 20px; 
+    
+}
+.box-text-back{
+    background-color: rgba(174, 215, 213, 0.645);
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: -595px;
+    margin-left: 330px;
+    opacity: 0.9;
+}
+
+.box-back{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 700px;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-left: 350px;
+    opacity: 0.4;
+}
+
+.box-circle{
+    background-color: rgb(199, 244, 255);
+    width: 200px;
+    height: 200px;
+    margin-top: -750px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+.box-main{
+    background-color: rgb(199, 244, 255);
+    width: 550px;
+    height: 550px;
+    margin-top: -130px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+
+
+
+
