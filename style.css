@@ -57,67 +57,159 @@ nav {
    
   }
 
+  .boxinformation {
+    font-weight: bold;
+  }
 
-.boxRound{
-    background-color: rgb(255, 255, 255);
-    width: 1000px;
-    height: 700px;
-    border-radius: 50px;
+  .boxtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+  }
+
+  #profileicon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+.box {
+    width: 50vh;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;  
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
     margin-top: 100px;
-    margin-left: 450px;
-    opacity: 0.4;
 }
 
-.box-text{
-    margin-top: 100px;
-    margin-left: 470px;
-}
 
-.box-text h1{
-    font-size: 25px;
-    font-family: Geneva;
-    color: rgb(117, 26, 26);
-    margin-left: 20px; 
+@media screen and (max-width: 378px) {
+    .box {
+        width: 20vh;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07)
+      ;  
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        margin-top: 100px;
+    }
+
     
-}
-.box-text-back{
-    background-color: rgba(174, 215, 213, 0.645);
-    width: 500px;
+  .boxinformation {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  .boxtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 11px;
+  }
+
+  #profileicon {
+    width:40px;
     height: 40px;
-    border-radius: 50px;
-    margin-top: -595px;
-    margin-left: 330px;
-    opacity: 0.9;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  li {
+    margin-right: 10px;
+
+    font-weight: bold;
+  }
+
 }
+    
+@media screen and (max-width: 282px) {
+    .box {
+        width: 30vh;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07)
+      ;  
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+      
+    }
 
-.box-back{
-    background-color: rgb(255, 255, 255);
-    width: 1000px;
-    height: 700px;
-    border-radius: 50px;
-    margin-top: 0px;
-    margin-left: 350px;
-    opacity: 0.4;
+    
+  .boxinformation {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  .boxtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 11px;
+  }
+
+  #profileicon {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  li {
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
 }
-
-.box-circle{
-    background-color: rgb(199, 244, 255);
-    width: 200px;
-    height: 200px;
-    margin-top: -750px;
-    border-radius: 100px;
-    margin-left: 20px;
-}
-
-.box-main{
-    background-color: rgb(199, 244, 255);
-    width: 550px;
-    height: 550px;
-    margin-top: -130px;
-    border-radius: 20px;
-    margin-left: 300px;
-}
-
-
-
-
+    
