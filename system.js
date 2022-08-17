@@ -4,3 +4,11 @@
     * If you wish to modify the code from here, you can everytime contribuite to the project
     * Developed By Sanke#111 & Mihai.Vue#5199
 */
+
+function openNav() {
+    document.getElementById("menu").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("menu").style.height = "0%";
+  }
